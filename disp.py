@@ -5,7 +5,7 @@ import os
 import socket
 import time
 
-def serve():
+def server():
     parser = argparse.ArgumentParser()
     parser.add_argument("--host",
                         help="dispatcher's host, by default it uses localhost",
